@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISEP | Portal do Caloiro</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Ícones Phosphor -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col items-center p-5 font-sans">
+
+  <!-- Cabeçalho -->
+  <header class="text-center mt-6 mb-8">
+    <div class="w-20 h-20 bg-amber-600 rounded-2xl mx-auto flex items-center justify-center shadow-lg shadow-amber-600/30 mb-3">
+      <i class="ph ph-compass text-4xl text-white"></i>
+    </div>
+    <h1 class="text-2xl font-bold tracking-tight">ISEP Caloiro Hub</h1>
+    <p class="text-xs text-slate-400 mt-1">Guia de Bolso & Atalhos Rápidos</p>
+  </header>
+
+  <!-- Lista de Acessos -->
+  <main class="w-full max-w-sm space-y-3">
+    
+    <!-- Moodle -->
+    <a href="https://moodle.isep.ipp.pt" target="_blank" 
+       class="flex items-center p-4 bg-slate-800/90 border border-slate-700/60 rounded-xl active:scale-95 transition">
+      <div class="p-2.5 bg-orange-500/10 text-orange-400 rounded-lg mr-4">
+        <i class="ph ph-graduation-cap text-2xl"></i>
+      </div>
+      <div>
+        <p class="font-semibold text-sm">Moodle ISEP</p>
+        <p class="text-xs text-slate-400">Sumários, apontamentos e entregas</p>
+      </div>
+    </a>
+
+    <!-- Domus / Inforestudante -->
+    <a href="https://domus.ipp.pt" target="_blank" 
+       class="flex items-center p-4 bg-slate-800/90 border border-slate-700/60 rounded-xl active:scale-95 transition">
+      <div class="p-2.5 bg-blue-500/10 text-blue-400 rounded-lg mr-4">
+        <i class="ph ph-user-circle text-2xl"></i>
+      </div>
+      <div>
+        <p class="font-semibold text-sm">Domus / P.Porto</p>
+        <p class="text-xs text-slate-400">Horários, turmas e propinas</p>
+      </div>
+    </a>
+
+    <!-- Mapa dos Blocos -->
+    <a href="#" target="_blank" 
+       class="flex items-center p-4 bg-slate-800/90 border border-slate-700/60 rounded-xl active:scale-95 transition">
+      <div class="p-2.5 bg-emerald-500/10 text-emerald-400 rounded-lg mr-4">
+        <i class="ph ph-map-trifold text-2xl"></i>
+      </div>
+      <div>
+        <p class="font-semibold text-sm">Mapa do Campus</p>
+        <p class="text-xs text-slate-400">Localização dos blocos e salas</p>
+      </div>
+    </a>
+
+    <!-- Ementa Cantina -->
+    <a href="https://sas.ipp.pt" target="_blank" 
+       class="flex items-center p-4 bg-slate-800/90 border border-slate-700/60 rounded-xl active:scale-95 transition">
+      <div class="p-2.5 bg-rose-500/10 text-rose-400 rounded-lg mr-4">
+        <i class="ph ph-fork-knife text-2xl"></i>
+      </div>
+      <div>
+        <p class="font-semibold text-sm">Ementa & Cantina</p>
+        <p class="text-xs text-slate-400">Senhas e filas SAS P.Porto</p>
+      </div>
+    </a>
+
+  </main>
+
+  <footer class="mt-auto py-8 text-center text-xs text-slate-500">
+    <p>Projeto de Apoio ao Caloiro ISEP</p>
+  </footer>
+
+</body>
+</html>
